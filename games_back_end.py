@@ -10,7 +10,7 @@ def hangman_main():
     while i < number_of_letters:
         secret_word_to_guess.append("_")
         i += 1
-    print(secret_word_to_guess)
+    guessing_word_label = Label(root, )
 
     number_of_guesses = 0
     remaining_chances = 10
